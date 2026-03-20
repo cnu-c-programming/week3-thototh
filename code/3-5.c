@@ -16,7 +16,7 @@ void my_sum(char oder, int num, ...){
             break;
         case 'C':
             for(int i = 0; i < num; i++){
-                printf("%c", va_arg(ap, char));
+                printf("%c", va_arg(ap, int));
             }
             printf("\n");
             break;
