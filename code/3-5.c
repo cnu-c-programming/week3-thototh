@@ -27,6 +27,7 @@ void my_sum(char oder, int num, ...){
             printf("%d\n", total);
             break;
     }
+    va_end(ap);
 }
 
 int main(void){
@@ -37,5 +38,3 @@ int main(void){
     return 0;
 
 }
-
-
